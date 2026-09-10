@@ -48,7 +48,7 @@ knitr::opts_chunk$set(
   fig.align = "center",
   out.width = "100%"
 )
-options(knitr.duplicate.label = "allow", knitr.kable.NA = "")
+options(knitr.kable.NA = "")
 set.seed(99)
 library(tidyverse)
 library(knitr)
@@ -85,9 +85,9 @@ kable(
   kable_styling(latex_options = "HOLD_position", full_width = FALSE)
 ```
 
-## Matriz de comunidad y esfuerzo de muestreo
+## Matriz de comunidad e intensidad de registro
 
-Explica qué constituye una presencia, qué filtros utilizaste y por qué el número de registros por H3 se usa como aproximación al esfuerzo de registro.
+Explica qué constituye una presencia, qué filtros utilizaste y cómo se utilizó el número de registros por H3 como medida de intensidad de registro. No lo interpretes como una medida directa del esfuerzo de muestreo.
 
 ## Variables ambientales
 
@@ -101,13 +101,15 @@ Describe NMDS/disimilitud, `envfit`, análisis de hábitat y dispersión, regres
 
 Organiza los resultados siguiendo tus preguntas, no el orden en que ejecutaste funciones. Incluye valores cuantitativos en el texto y refiere todas las figuras/tablas con `\@ref()`.
 
-## Patrón espacial y esfuerzo de registro
+## Patrón espacial e intensidad de registro
 
 ## Composición florística y ambiente
 
 ## Riqueza observada y ambiente
 
-## Asociación con hábitat
+## Diferencias y asociaciones entre hábitats, si procede
+
+## Otros análisis que correspondan
 
 # Discusión
 
@@ -132,5 +134,16 @@ Si utilizaste IA, documenta herramienta, tarea, un error o limitación concreta,
 - Figura generada por un chunk llamado `mapa`: `Figura \@ref(fig:mapa)`.
 - Tabla generada por un chunk llamado `modelo`: `Tabla \@ref(tab:modelo)`.
 - Para tablas manuales, usa `Table: (\#tab:mi-tabla) Título...` y luego `Tabla \@ref(tab:mi-tabla)`.
+
+```{r informacion-sesion, include=FALSE}
+writeLines(
+  capture.output(sessionInfo()),
+  "session_info_manuscript.txt"
+)
+```
+
+# Declaración de reproducibilidad
+
+Indica dónde se encuentra el código, qué datos se proporcionaron, qué archivo de GBIF grande no se incluye, las versiones principales de software y los pasos manuales. La información completa de la sesión utilizada para generar el manuscrito se conserva en `session_info_manuscript.txt`.
 
 # Referencias {-}

@@ -30,13 +30,13 @@ ambientales calculadas para los fines; puedes obtener más información
 sobre ese dataset [aquí](https://github.com/geofis/zonal-statistics)
 (Martínez-Batlle, 2022). Los registros de GBIF no se interpretarán como
 un censo exhaustivo ni como abundancias: son **registros de presencia
-obtenidos mediante esfuerzos de muestreo desiguales**. Por ello, el
-número de registros por hexágono debe describirse y considerarse
-explícitamente al interpretar la riqueza observada. Por ello, **no se
-puede asumir que la ausencia de un registro signifique ausencia
-biológica, ni que un registro de presencia de una especie se corresponda
-con las condiciones actuales del hábitat**. Por otra parte, los
-registros de GBIF presentan otras limitaciones que debes reconocer:
+acumulados con intensidades de registro espacialmente desiguales**. Por
+ello, el número de registros por hexágono debe describirse y
+considerarse explícitamente al interpretar la riqueza observada. Por
+ello, **no se puede asumir que la ausencia de un registro signifique
+ausencia biológica, ni que un registro de presencia de una especie se
+corresponda con las condiciones actuales del hábitat**. Por otra parte,
+los registros de GBIF presentan otras limitaciones que debes reconocer:
 fueron obtenidos en fechas distintas, por personas distintas, con
 propósitos distintos y bajo criterios taxonómicos que pueden haber
 cambiado. Además, con datos de GBIF no podemos hablar de esfuerzo de
@@ -448,11 +448,12 @@ comparación.
 
 Construye al menos **un modelo de regresión** en el que la respuesta sea
 la riqueza observada por H3. El modelo debe considerar explícitamente
-`n_registros` como intensidad de registro o, a lo sumo, como un proxy
-del esfuerzo de muestreo (pero “cuidadín” con esto), mediante una
-transformación, término funcional o estrategia estadística que puedas
-justificar. No asumas automáticamente que la relación entre número de
-registros y riqueza observada es lineal. El modelo debe incluir:
+`n_registros` como intensidad de registro o, a lo sumo, como proxy del
+esfuerzo de muestreo —con mucha cautela en esta interpretación—,
+mediante una transformación, término funcional o estrategia estadística
+que puedas justificar. No asumas automáticamente que la relación entre
+número de registros y riqueza observada es lineal. El modelo debe
+incluir:
 
 - `log1p(n_registros)` o una medida equivalente de la “intensidad de
   registro” o “proxy del esfuerzo de muestreo”;
@@ -487,7 +488,9 @@ apareció una vez en un hábitat.
 La ordenación, la regresión y la asociación con hábitat **no son tres
 tareas independientes**. En el manuscrito debes integrarlas para
 responder una misma pregunta o conjunto pequeño de preguntas
-relacionadas.
+relacionadas. Si realizaste otros análisis además de los mencionados,
+este es el lugar para incluir sus resultados, sin olvidar detallarlos en
+la sección “Materiales y métodos”.
 
 # Reglas mínimas del análisis
 
@@ -593,7 +596,8 @@ Presenta evidencia, no salidas crudas. Incluye como mínimo:
 
 - un mapa analítico;
 - un gráfico de ordenación;
-- una figura de “riqueza/intensidad de registro” o de regresión;
+- una figura de riqueza frente a intensidad de registro o una figura
+  derivada de la regresión;
 - dos tablas de resultados.
 
 Las tablas deben generarse reproduciblemente a partir de objetos de
@@ -756,9 +760,9 @@ es su narrativa**.
 - conserva datos originales separados de productos derivados;
 - fija semilla para procedimientos con aleatoriedad;
 - no edites manualmente tablas que puedan regenerarse;
-- guarda la información de la sesión en `session_info.txt` y referencia
-  ese archivo en la declaración de reproducibilidad; no imprimas
-  `sessionInfo()` completo dentro del manuscrito;
+- guarda la información de la sesión en `session_info_manuscript.txt` y
+  referencia ese archivo en la declaración de reproducibilidad; no
+  imprimas `sessionInfo()` completo dentro del manuscrito;
 - guarda el proyecto QGIS (`.qgz`) en el repositorio;
 - documenta cualquier reclasificación o edición manual.
 
@@ -788,7 +792,7 @@ diapositivas y ensayo.
 - [ ] Mi matriz de comunidad y ambiental tienen exactamente los mismos
   H3 y orden.
 - [ ] Justifiqué las variables ambientales elegidas.
-- [ ] Describí la intensidad de registro de registro por H3.
+- [ ] Describí la intensidad de registro por H3.
 - [ ] Informé el estrés del NMDS.
 - [ ] Interpreté `envfit` como asociación, no causalidad.
 - [ ] Verifiqué dispersión antes de interpretar PERMANOVA, si la usé.
