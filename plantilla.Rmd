@@ -1,0 +1,136 @@
+---
+title: "Mi manuscrito en APA 7"
+author: "Autor"
+affiliation: "Universidad Autónoma de Santo Domingo (UASD)"
+output:
+  bookdown::pdf_document2:
+    latex_engine: xelatex
+    fig_caption: true
+    extra_dependencies: ["float", "booktabs", "longtable"]
+documentclass: apa7
+classoption: [man,floatsintext]
+fontsize: 12pt
+lang: es-ES
+bibliography: bibliografia.bib
+date: "`r format(Sys.Date(), '%Y-%m-%d')`"
+header-includes:
+  - \title{Mi manuscrito en APA 7}
+  - \shorttitle{Título corto}
+  - \affiliation{Universidad Autónoma de Santo Domingo (UASD)}
+  - \abstract{ESCRIBE AQUÍ TU RESUMEN. NO INTRODUZCAS ENTER NI SALTOS DE LÍNEA.}
+  - \keywords{biogeografía, biodiversidad, ambiente, palabra clave 4}
+  - \usepackage{orcidlink}
+  - \usepackage[all]{nowidow}
+  - \usepackage{pdflscape}
+  - \renewcommand\spanishtablename{Tabla}
+  - \usepackage{xcolor}
+  - \usepackage{tabu}
+  - \usepackage{xurl}
+  - \usepackage{setspace}
+  - \usepackage{etoolbox}
+  - \usepackage{fvextra}
+  - \AtBeginEnvironment{Shaded}{\singlespacing\footnotesize}
+  - \DefineVerbatimEnvironment{verbatim}{Verbatim}{fontsize=\scriptsize,breaklines=true,breakanywhere=true,formatcom=\singlespacing}
+---
+
+\pagebreak
+
+> **ANTES DE ENTREGAR:** este archivo es una plantilla didáctica. Sustituye las instrucciones y elimina cualquier ejemplo que no corresponda a tu investigación.
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  cache = FALSE,
+  echo = FALSE,
+  warning = FALSE,
+  message = FALSE,
+  dpi = 300,
+  fig.pos = "H",
+  fig.align = "center",
+  out.width = "100%"
+)
+options(knitr.duplicate.label = "allow", knitr.kable.NA = "")
+set.seed(99)
+library(tidyverse)
+library(knitr)
+library(kableExtra)
+library(sf)
+theme_set(theme_bw())
+```
+
+# Introducción
+
+Presenta el problema biogeográfico, explica por qué la heterogeneidad ambiental puede relacionarse con la composición y riqueza de plantas, describe las limitaciones generales de datos secundarios de ocurrencia y termina con **pregunta, objetivo e hipótesis**. Sustenta la sección con bibliografía científica.
+
+# Materiales y métodos
+
+Describe el municipio, los datos de GBIF, el procedimiento de limpieza recibido, H3 res. 7, las variables ambientales seleccionadas, la construcción y filtrado de matrices y los métodos estadísticos. No escribas “se usó R” como sustituto de una descripción metodológica.
+
+## Área de estudio y datos
+
+Incluye una figura de localización y una tabla de fuentes de datos.
+
+```{r tabla-datos, eval=FALSE}
+tabla_datos <- tibble(
+  Fuente = c("GBIF", "H3 ambiental", "Municipios"),
+  Contenido = c("Registros de flora", "Variables ambientales por H3", "Límite administrativo"),
+  Uso = c("Matriz de comunidad", "Matriz ambiental", "Área de estudio")
+)
+
+kable(
+  tabla_datos,
+  format = "latex",
+  booktabs = TRUE,
+  caption = "Fuentes de datos utilizadas en el estudio."
+) |>
+  kable_styling(latex_options = "HOLD_position", full_width = FALSE)
+```
+
+## Matriz de comunidad y esfuerzo de muestreo
+
+Explica qué constituye una presencia, qué filtros utilizaste y por qué el número de registros por H3 se usa como aproximación al esfuerzo de registro.
+
+## Variables ambientales
+
+Enumera variables, unidades, fuente y justificación ecológica. Explica cómo trataste colinealidad y estandarización.
+
+## Análisis estadístico
+
+Describe NMDS/disimilitud, `envfit`, análisis de hábitat y dispersión, regresión de riqueza y especies indicadoras. Indica número de permutaciones y criterios relevantes.
+
+# Resultados
+
+Organiza los resultados siguiendo tus preguntas, no el orden en que ejecutaste funciones. Incluye valores cuantitativos en el texto y refiere todas las figuras/tablas con `\@ref()`.
+
+## Patrón espacial y esfuerzo de registro
+
+## Composición florística y ambiente
+
+## Riqueza observada y ambiente
+
+## Asociación con hábitat
+
+# Discusión
+
+Interpreta los resultados, relaciónalos con literatura y separa cuidadosamente **señal ecológica** de **sesgo de observación**. Discute resolución espacial, variables agregadas, filtros de especies, coordenadas y ausencia de inventarios estandarizados.
+
+# Conclusiones
+
+Responde al objetivo con afirmaciones directamente respaldadas por los resultados.
+
+# Declaración de reproducibilidad
+
+Indica dónde se encuentra el código, qué datos se proporcionaron, qué archivo de GBIF grande no se incluye, versiones de software y pasos manuales.
+
+# Auditoría de IA
+
+Si utilizaste IA, documenta herramienta, tarea, un error o limitación concreta, cómo lo verificaste y cómo lo corregiste. Si no utilizaste IA, decláralo explícitamente.
+
+# Guía mínima de referencias cruzadas {-}
+
+> Elimina esta sección del manuscrito final.
+
+- Figura generada por un chunk llamado `mapa`: `Figura \@ref(fig:mapa)`.
+- Tabla generada por un chunk llamado `modelo`: `Tabla \@ref(tab:modelo)`.
+- Para tablas manuales, usa `Table: (\#tab:mi-tabla) Título...` y luego `Tabla \@ref(tab:mi-tabla)`.
+
+# Referencias {-}
