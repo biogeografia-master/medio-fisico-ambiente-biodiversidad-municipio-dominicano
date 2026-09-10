@@ -7,7 +7,7 @@ Domingo (UASD)</small>
 <!-- README.md y README.html se generan a partir de README.Rmd. Edita README.Rmd. -->
 
 Versión HTML (quizá más legible),
-[aquí](https://.github.io//README.html)
+[aquí](https://biogeografia-master.github.io/medio-fisico-ambiente-biodiversidad-municipio-dominicano/README.html)
 
 # Fecha/hora de entrega
 
@@ -118,83 +118,83 @@ de la información antes de elegir. Las categorías **APTO** y
 utilizados para recomendar el municipio; no constituyen una valoración
 de su importancia biogeográfica.
 
-| Código | Municipio | Provincia | Registros | Especies | H3 con registros | H3 ≥5 spp. | Mediana registros/H3 | Especies en ≥3 H3 | Grupos de hábitat | Categoría |
-|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|:---|
-| 021302 | Constanza | 13 | 5583 | 1715 | 154 | 98 | 11.5 | 473 | 3 | APTO |
-| 061601 | Pedernales | 16 | 4124 | 1340 | 178 | 101 | 8.0 | 308 | 4 | APTO |
-| 021303 | Jarabacoa | 13 | 3451 | 1236 | 109 | 73 | 11.0 | 290 | 1 | APTO |
-| 022801 | Bonao | 28 | 1873 | 972 | 90 | 40 | 4.0 | 79 | 1 | APTO |
-| 061002 | Duvergé | 10 | 2163 | 861 | 76 | 50 | 11.5 | 142 | 4 | APTO |
-| 053101 | San José De Ocoa | 31 | 1963 | 843 | 86 | 52 | 9.5 | 153 | 2 | APTO |
-| 081101 | Higüey | 11 | 3316 | 774 | 175 | 86 | 5.0 | 223 | 5 | APTO |
-| 012501 | Santiago | 25 | 2051 | 755 | 78 | 42 | 6.5 | 146 | 3 | APTO |
-| 051701 | Baní | 17 | 1745 | 753 | 142 | 64 | 5.0 | 115 | 5 | APTO |
-| 093002 | Sabana De La Mar | 30 | 1630 | 657 | 68 | 37 | 8.0 | 114 | 3 | APTO |
-| 081102 | San Rafael Del Yuma | 11 | 1802 | 632 | 64 | 43 | 11.0 | 124 | 3 | APTO |
-| 011801 | Puerto Plata | 18 | 1462 | 598 | 81 | 38 | 5.0 | 91 | 3 | APTO |
-| 060407 | La Ciénaga | 04 | 1382 | 586 | 34 | 27 | 18.5 | 80 | 2 | APTO |
-| 012505 | San José De Las Matas | 25 | 1071 | 583 | 154 | 57 | 3.0 | 65 | 2 | APTO |
-| 053102 | Sabana Larga | 31 | 1408 | 568 | 32 | 21 | 12.5 | 67 | 1 | APTO |
-| 060404 | Paraíso | 04 | 1007 | 529 | 32 | 24 | 14.0 | 50 | 1 | APTO |
-| 032001 | Samaná | 20 | 1307 | 522 | 101 | 46 | 4.0 | 98 | 2 | APTO |
-| 050201 | Azua | 02 | 947 | 513 | 53 | 24 | 3.0 | 48 | 3 | APTO |
-| 060401 | Barahona | 04 | 729 | 491 | 38 | 22 | 11.5 | 25 | 2 | APTO |
-| 103203 | Santo Domingo Norte | 32 | 1210 | 472 | 63 | 24 | 4.0 | 67 | 3 | APTO |
-| 072203 | El Cercado | 22 | 808 | 456 | 29 | 20 | 10.0 | 26 | 2 | APTO |
-| 011807 | Sosúa | 18 | 1160 | 453 | 57 | 30 | 5.0 | 102 | 2 | APTO |
-| 042601 | San Ignacio De Sabaneta | 26 | 795 | 435 | 83 | 29 | 3.0 | 34 | 2 | APTO |
-| 103201 | Santo Domingo Este | 32 | 875 | 433 | 50 | 23 | 5.0 | 47 | 4 | APTO |
-| 060402 | Cabral | 04 | 702 | 423 | 23 | 16 | 11.0 | 17 | 1 | APTO |
-| 021301 | La Vega | 13 | 572 | 382 | 77 | 27 | 2.0 | 17 | 4 | APTO |
-| 060410 | Polo | 04 | 699 | 379 | 33 | 19 | 7.0 | 10 | 1 | APTO |
-| 081201 | La Romana | 12 | 806 | 370 | 48 | 24 | 5.5 | 56 | 4 | APTO |
-| 052104 | Cambita Garabitos | 21 | 650 | 370 | 36 | 20 | 8.0 | 22 | 1 | APTO |
-| 053103 | Rancho Arriba | 31 | 675 | 366 | 39 | 20 | 5.0 | 26 | 1 | APTO |
-| 072202 | Bohechío | 22 | 526 | 349 | 33 | 17 | 6.0 | 16 | 1 | APTO |
-| 061602 | Oviedo | 16 | 765 | 322 | 83 | 33 | 4.0 | 51 | 5 | APTO |
-| 072201 | San Juan | 22 | 439 | 319 | 70 | 18 | 2.0 | 6 | 4 | APTO |
-| 032003 | Las Terrenas | 20 | 644 | 315 | 27 | 17 | 10.0 | 35 | 2 | APTO |
-| 022803 | Piedra Blanca | 28 | 487 | 314 | 35 | 19 | 6.0 | 10 | 1 | APTO |
-| 092902 | Bayaguana | 29 | 605 | 313 | 60 | 24 | 4.0 | 34 | 2 | APTO |
-| 010903 | Gaspar Hernández | 09 | 610 | 313 | 39 | 18 | 4.0 | 27 | 3 | APTO |
-| 080802 | Miches | 08 | 563 | 310 | 58 | 22 | 4.0 | 25 | 3 | APTO |
-| 022401 | Cotuí | 24 | 477 | 301 | 46 | 17 | 3.0 | 26 | 2 | APTO |
-| 030601 | San Francisco De Macorís | 06 | 560 | 289 | 69 | 22 | 3.0 | 35 | 3 | APTO |
-| 052105 | Villa Altagracia | 21 | 487 | 259 | 53 | 18 | 4.0 | 15 | 2 | APTO |
-| 041503 | Guayubín | 15 | 394 | 234 | 68 | 23 | 2.0 | 25 | 3 | APTO |
-| 070705 | Pedro Santana | 07 | 335 | 233 | 34 | 16 | 3.0 | 6 | 2 | APTO |
-| 060403 | Enriquillo | 04 | 317 | 229 | 35 | 15 | 4.0 | 5 | 1 | APTO |
-| 080801 | El Seibo | 08 | 361 | 228 | 45 | 17 | 3.0 | 4 | 2 | APTO |
-| 041501 | Monte Cristi | 15 | 456 | 213 | 50 | 17 | 3.0 | 24 | 6 | APTO |
-| 100101 | Santo Domingo De Guzmán | 01 | 847 | 414 | 21 | 14 | 28.0 | 53 | 2 | CONDICIONAL |
-| 061003 | La Descubierta | 10 | 650 | 385 | 25 | 14 | 9.0 | 7 | 3 | CONDICIONAL |
-| 042702 | Esperanza | 27 | 646 | 377 | 26 | 9 | 2.0 | 8 | 2 | CONDICIONAL |
-| 070704 | Hondo Valle | 07 | 739 | 362 | 21 | 12 | 8.0 | 18 | 2 | CONDICIONAL |
-| 010901 | Moca | 09 | 411 | 243 | 54 | 14 | 2.0 | 17 | 1 | CONDICIONAL |
-| 042603 | Monción | 26 | 374 | 233 | 24 | 12 | 7.0 | 9 | 1 | CONDICIONAL |
-| 050204 | Padre Las Casas | 02 | 303 | 233 | 39 | 12 | 3.0 | 4 | 2 | CONDICIONAL |
-| 050209 | Guayabal | 02 | 335 | 231 | 30 | 9 | 2.0 | 4 | 2 | CONDICIONAL |
-| 060405 | Vicente Noble | 04 | 464 | 229 | 37 | 14 | 3.0 | 12 | 2 | CONDICIONAL |
-| 103207 | Pedro Brand | 32 | 382 | 225 | 33 | 12 | 3.0 | 12 | 1 | CONDICIONAL |
-| 092303 | Ramón Santana | 23 | 358 | 205 | 25 | 9 | 2.0 | 6 | 2 | CONDICIONAL |
-| 103204 | Boca Chica | 32 | 341 | 200 | 22 | 10 | 6.0 | 6 | 3 | CONDICIONAL |
-| 052101 | San Cristóbal | 21 | 289 | 195 | 37 | 12 | 3.0 | 6 | 2 | CONDICIONAL |
-| 032002 | Sánchez | 20 | 282 | 194 | 36 | 14 | 3.5 | 8 | 3 | CONDICIONAL |
-| 040502 | Loma De Cabrera | 05 | 262 | 186 | 28 | 11 | 2.5 | 3 | 2 | CONDICIONAL |
-| 103205 | San Antonio De Guerra | 32 | 324 | 175 | 40 | 15 | 3.5 | 17 | 1 | CONDICIONAL |
-| 012507 | Villa González | 25 | 232 | 173 | 13 | 9 | 8.0 | 1 | 1 | CONDICIONAL |
-| 022802 | Maimón | 28 | 234 | 167 | 17 | 11 | 7.0 | 2 | 2 | CONDICIONAL |
-| 061001 | Jimaní | 10 | 310 | 165 | 31 | 10 | 4.0 | 6 | 3 | CONDICIONAL |
-| 092904 | Yamasá | 29 | 253 | 163 | 35 | 13 | 3.0 | 4 | 1 | CONDICIONAL |
-| 050210 | Estebanía | 02 | 274 | 162 | 22 | 10 | 3.0 | 6 | 1 | CONDICIONAL |
-| 031402 | Cabrera | 14 | 235 | 160 | 32 | 11 | 3.0 | 6 | 3 | CONDICIONAL |
-| 050202 | Las Charcas | 02 | 281 | 155 | 37 | 13 | 3.0 | 10 | 3 | CONDICIONAL |
-| 092901 | Monte Plata | 29 | 266 | 148 | 34 | 9 | 2.0 | 9 | 2 | CONDICIONAL |
-| 092301 | San Pedro De Macorís | 23 | 240 | 144 | 22 | 11 | 4.5 | 7 | 4 | CONDICIONAL |
-| 052108 | Los Cacaos | 21 | 249 | 141 | 21 | 10 | 4.0 | 4 | 1 | CONDICIONAL |
-| 042701 | Mao | 27 | 172 | 140 | 33 | 10 | 2.0 | 3 | 1 | CONDICIONAL |
-| 092306 | Guayacanes | 23 | 236 | 133 | 18 | 8 | 5.5 | 9 | 2 | CONDICIONAL |
-| 061006 | Mella | 10 | 167 | 125 | 25 | 9 | 2.0 | 0 | 2 | CONDICIONAL |
+| Código | Municipio                | Provincia | Registros | Especies | H3 con registros | H3 ≥5 spp. | Mediana registros/H3 | Especies en ≥3 H3 | Grupos de hábitat | Categoría   |
+|:-------|:-------------------------|----------:|----------:|---------:|-----------------:|-----------:|---------------------:|------------------:|------------------:|:------------|
+| 021302 | Constanza                |        13 |      5583 |     1715 |              154 |         98 |                 11.5 |               473 |                 3 | APTO        |
+| 061601 | Pedernales               |        16 |      4124 |     1340 |              178 |        101 |                  8.0 |               308 |                 4 | APTO        |
+| 021303 | Jarabacoa                |        13 |      3451 |     1236 |              109 |         73 |                 11.0 |               290 |                 1 | APTO        |
+| 022801 | Bonao                    |        28 |      1873 |      972 |               90 |         40 |                  4.0 |                79 |                 1 | APTO        |
+| 061002 | Duvergé                  |        10 |      2163 |      861 |               76 |         50 |                 11.5 |               142 |                 4 | APTO        |
+| 053101 | San José De Ocoa         |        31 |      1963 |      843 |               86 |         52 |                  9.5 |               153 |                 2 | APTO        |
+| 081101 | Higüey                   |        11 |      3316 |      774 |              175 |         86 |                  5.0 |               223 |                 5 | APTO        |
+| 012501 | Santiago                 |        25 |      2051 |      755 |               78 |         42 |                  6.5 |               146 |                 3 | APTO        |
+| 051701 | Baní                     |        17 |      1745 |      753 |              142 |         64 |                  5.0 |               115 |                 5 | APTO        |
+| 093002 | Sabana De La Mar         |        30 |      1630 |      657 |               68 |         37 |                  8.0 |               114 |                 3 | APTO        |
+| 081102 | San Rafael Del Yuma      |        11 |      1802 |      632 |               64 |         43 |                 11.0 |               124 |                 3 | APTO        |
+| 011801 | Puerto Plata             |        18 |      1462 |      598 |               81 |         38 |                  5.0 |                91 |                 3 | APTO        |
+| 060407 | La Ciénaga               |        04 |      1382 |      586 |               34 |         27 |                 18.5 |                80 |                 2 | APTO        |
+| 012505 | San José De Las Matas    |        25 |      1071 |      583 |              154 |         57 |                  3.0 |                65 |                 2 | APTO        |
+| 053102 | Sabana Larga             |        31 |      1408 |      568 |               32 |         21 |                 12.5 |                67 |                 1 | APTO        |
+| 060404 | Paraíso                  |        04 |      1007 |      529 |               32 |         24 |                 14.0 |                50 |                 1 | APTO        |
+| 032001 | Samaná                   |        20 |      1307 |      522 |              101 |         46 |                  4.0 |                98 |                 2 | APTO        |
+| 050201 | Azua                     |        02 |       947 |      513 |               53 |         24 |                  3.0 |                48 |                 3 | APTO        |
+| 060401 | Barahona                 |        04 |       729 |      491 |               38 |         22 |                 11.5 |                25 |                 2 | APTO        |
+| 103203 | Santo Domingo Norte      |        32 |      1210 |      472 |               63 |         24 |                  4.0 |                67 |                 3 | APTO        |
+| 072203 | El Cercado               |        22 |       808 |      456 |               29 |         20 |                 10.0 |                26 |                 2 | APTO        |
+| 011807 | Sosúa                    |        18 |      1160 |      453 |               57 |         30 |                  5.0 |               102 |                 2 | APTO        |
+| 042601 | San Ignacio De Sabaneta  |        26 |       795 |      435 |               83 |         29 |                  3.0 |                34 |                 2 | APTO        |
+| 103201 | Santo Domingo Este       |        32 |       875 |      433 |               50 |         23 |                  5.0 |                47 |                 4 | APTO        |
+| 060402 | Cabral                   |        04 |       702 |      423 |               23 |         16 |                 11.0 |                17 |                 1 | APTO        |
+| 021301 | La Vega                  |        13 |       572 |      382 |               77 |         27 |                  2.0 |                17 |                 4 | APTO        |
+| 060410 | Polo                     |        04 |       699 |      379 |               33 |         19 |                  7.0 |                10 |                 1 | APTO        |
+| 081201 | La Romana                |        12 |       806 |      370 |               48 |         24 |                  5.5 |                56 |                 4 | APTO        |
+| 052104 | Cambita Garabitos        |        21 |       650 |      370 |               36 |         20 |                  8.0 |                22 |                 1 | APTO        |
+| 053103 | Rancho Arriba            |        31 |       675 |      366 |               39 |         20 |                  5.0 |                26 |                 1 | APTO        |
+| 072202 | Bohechío                 |        22 |       526 |      349 |               33 |         17 |                  6.0 |                16 |                 1 | APTO        |
+| 061602 | Oviedo                   |        16 |       765 |      322 |               83 |         33 |                  4.0 |                51 |                 5 | APTO        |
+| 072201 | San Juan                 |        22 |       439 |      319 |               70 |         18 |                  2.0 |                 6 |                 4 | APTO        |
+| 032003 | Las Terrenas             |        20 |       644 |      315 |               27 |         17 |                 10.0 |                35 |                 2 | APTO        |
+| 022803 | Piedra Blanca            |        28 |       487 |      314 |               35 |         19 |                  6.0 |                10 |                 1 | APTO        |
+| 092902 | Bayaguana                |        29 |       605 |      313 |               60 |         24 |                  4.0 |                34 |                 2 | APTO        |
+| 010903 | Gaspar Hernández         |        09 |       610 |      313 |               39 |         18 |                  4.0 |                27 |                 3 | APTO        |
+| 080802 | Miches                   |        08 |       563 |      310 |               58 |         22 |                  4.0 |                25 |                 3 | APTO        |
+| 022401 | Cotuí                    |        24 |       477 |      301 |               46 |         17 |                  3.0 |                26 |                 2 | APTO        |
+| 030601 | San Francisco De Macorís |        06 |       560 |      289 |               69 |         22 |                  3.0 |                35 |                 3 | APTO        |
+| 052105 | Villa Altagracia         |        21 |       487 |      259 |               53 |         18 |                  4.0 |                15 |                 2 | APTO        |
+| 041503 | Guayubín                 |        15 |       394 |      234 |               68 |         23 |                  2.0 |                25 |                 3 | APTO        |
+| 070705 | Pedro Santana            |        07 |       335 |      233 |               34 |         16 |                  3.0 |                 6 |                 2 | APTO        |
+| 060403 | Enriquillo               |        04 |       317 |      229 |               35 |         15 |                  4.0 |                 5 |                 1 | APTO        |
+| 080801 | El Seibo                 |        08 |       361 |      228 |               45 |         17 |                  3.0 |                 4 |                 2 | APTO        |
+| 041501 | Monte Cristi             |        15 |       456 |      213 |               50 |         17 |                  3.0 |                24 |                 6 | APTO        |
+| 100101 | Santo Domingo De Guzmán  |        01 |       847 |      414 |               21 |         14 |                 28.0 |                53 |                 2 | CONDICIONAL |
+| 061003 | La Descubierta           |        10 |       650 |      385 |               25 |         14 |                  9.0 |                 7 |                 3 | CONDICIONAL |
+| 042702 | Esperanza                |        27 |       646 |      377 |               26 |          9 |                  2.0 |                 8 |                 2 | CONDICIONAL |
+| 070704 | Hondo Valle              |        07 |       739 |      362 |               21 |         12 |                  8.0 |                18 |                 2 | CONDICIONAL |
+| 010901 | Moca                     |        09 |       411 |      243 |               54 |         14 |                  2.0 |                17 |                 1 | CONDICIONAL |
+| 042603 | Monción                  |        26 |       374 |      233 |               24 |         12 |                  7.0 |                 9 |                 1 | CONDICIONAL |
+| 050204 | Padre Las Casas          |        02 |       303 |      233 |               39 |         12 |                  3.0 |                 4 |                 2 | CONDICIONAL |
+| 050209 | Guayabal                 |        02 |       335 |      231 |               30 |          9 |                  2.0 |                 4 |                 2 | CONDICIONAL |
+| 060405 | Vicente Noble            |        04 |       464 |      229 |               37 |         14 |                  3.0 |                12 |                 2 | CONDICIONAL |
+| 103207 | Pedro Brand              |        32 |       382 |      225 |               33 |         12 |                  3.0 |                12 |                 1 | CONDICIONAL |
+| 092303 | Ramón Santana            |        23 |       358 |      205 |               25 |          9 |                  2.0 |                 6 |                 2 | CONDICIONAL |
+| 103204 | Boca Chica               |        32 |       341 |      200 |               22 |         10 |                  6.0 |                 6 |                 3 | CONDICIONAL |
+| 052101 | San Cristóbal            |        21 |       289 |      195 |               37 |         12 |                  3.0 |                 6 |                 2 | CONDICIONAL |
+| 032002 | Sánchez                  |        20 |       282 |      194 |               36 |         14 |                  3.5 |                 8 |                 3 | CONDICIONAL |
+| 040502 | Loma De Cabrera          |        05 |       262 |      186 |               28 |         11 |                  2.5 |                 3 |                 2 | CONDICIONAL |
+| 103205 | San Antonio De Guerra    |        32 |       324 |      175 |               40 |         15 |                  3.5 |                17 |                 1 | CONDICIONAL |
+| 012507 | Villa González           |        25 |       232 |      173 |               13 |          9 |                  8.0 |                 1 |                 1 | CONDICIONAL |
+| 022802 | Maimón                   |        28 |       234 |      167 |               17 |         11 |                  7.0 |                 2 |                 2 | CONDICIONAL |
+| 061001 | Jimaní                   |        10 |       310 |      165 |               31 |         10 |                  4.0 |                 6 |                 3 | CONDICIONAL |
+| 092904 | Yamasá                   |        29 |       253 |      163 |               35 |         13 |                  3.0 |                 4 |                 1 | CONDICIONAL |
+| 050210 | Estebanía                |        02 |       274 |      162 |               22 |         10 |                  3.0 |                 6 |                 1 | CONDICIONAL |
+| 031402 | Cabrera                  |        14 |       235 |      160 |               32 |         11 |                  3.0 |                 6 |                 3 | CONDICIONAL |
+| 050202 | Las Charcas              |        02 |       281 |      155 |               37 |         13 |                  3.0 |                10 |                 3 | CONDICIONAL |
+| 092901 | Monte Plata              |        29 |       266 |      148 |               34 |          9 |                  2.0 |                 9 |                 2 | CONDICIONAL |
+| 092301 | San Pedro De Macorís     |        23 |       240 |      144 |               22 |         11 |                  4.5 |                 7 |                 4 | CONDICIONAL |
+| 052108 | Los Cacaos               |        21 |       249 |      141 |               21 |         10 |                  4.0 |                 4 |                 1 | CONDICIONAL |
+| 042701 | Mao                      |        27 |       172 |      140 |               33 |         10 |                  2.0 |                 3 |                 1 | CONDICIONAL |
+| 092306 | Guayacanes               |        23 |       236 |      133 |               18 |          8 |                  5.5 |                 9 |                 2 | CONDICIONAL |
+| 061006 | Mella                    |        10 |       167 |      125 |               25 |          9 |                  2.0 |                 0 |                 2 | CONDICIONAL |
 
 <span id="tab:tabla-municipios-candidatos"></span>Table 1: Municipios
 disponibles y características generales de los datos de biodiversidad
@@ -823,32 +823,32 @@ diapositivas y ensayo.
 
 # Criterios de evaluación del manuscrito
 
-| Criterio | Nivel 1 | Nivel 2 | Nivel 3 | Nivel 4 |
-|----|----|----|----|----|
-| Pregunta biogeográfica | Ausente/operativa | Implícita | Clara y respondible | Clara, pertinente y bien justificada |
-| Comprensión de GBIF | Confunde registros con abundancia | Reconoce sesgo de forma superficial | Distingue registros, presencia e intensidad de registro | Integra sesgo e intensidad de registro en análisis e interpretación |
-| Matrices comunidad–ambiente | Incorrectas | Parciales | Correctas y alineadas | Correctas, auditadas y bien justificadas |
-| Estadística multivariada | Incorrecta | Aplicación mecánica | Correcta | Correcta, diagnosticada e integrada ecológicamente |
-| Regresión | Incorrecta | Básica/sin esfuerzo | Adecuada y con esfuerzo | Bien diagnosticada, parsimoniosa e interpretada |
-| Asociación con hábitat | Forzada/incorrecta | Descriptiva | Correcta cuando procede | Justificada, cauta e integrada con la ecología |
-| Evidencia espacial | Ausente | Mapas básicos | Mapas correctos | Excelente integración SIG–estadística |
-| Reproducibilidad | No reproducible | Parcial | Bien documentada | Flujo limpio, ejecutable y auditable |
-| Redacción científica | Deficiente | Comprensible | Clara | Precisa, fluida y argumentativa |
-| Figuras/tablas | Incorrectas/ausentes | Básicas | Correctas | Excelente diseño e integración |
-| Discusión | Repite resultados | Superficial | Interpreta y reconoce limitaciones | Integra ambiente, muestreo, escala y literatura |
-| Auditoría de IA | Ausente/inventada | Genérica | Error concreto verificado | Auditoría convincente y útil |
+| Criterio                    | Nivel 1                           | Nivel 2                             | Nivel 3                                                 | Nivel 4                                                             |
+|-----------------------------|-----------------------------------|-------------------------------------|---------------------------------------------------------|---------------------------------------------------------------------|
+| Pregunta biogeográfica      | Ausente/operativa                 | Implícita                           | Clara y respondible                                     | Clara, pertinente y bien justificada                                |
+| Comprensión de GBIF         | Confunde registros con abundancia | Reconoce sesgo de forma superficial | Distingue registros, presencia e intensidad de registro | Integra sesgo e intensidad de registro en análisis e interpretación |
+| Matrices comunidad–ambiente | Incorrectas                       | Parciales                           | Correctas y alineadas                                   | Correctas, auditadas y bien justificadas                            |
+| Estadística multivariada    | Incorrecta                        | Aplicación mecánica                 | Correcta                                                | Correcta, diagnosticada e integrada ecológicamente                  |
+| Regresión                   | Incorrecta                        | Básica/sin esfuerzo                 | Adecuada y con esfuerzo                                 | Bien diagnosticada, parsimoniosa e interpretada                     |
+| Asociación con hábitat      | Forzada/incorrecta                | Descriptiva                         | Correcta cuando procede                                 | Justificada, cauta e integrada con la ecología                      |
+| Evidencia espacial          | Ausente                           | Mapas básicos                       | Mapas correctos                                         | Excelente integración SIG–estadística                               |
+| Reproducibilidad            | No reproducible                   | Parcial                             | Bien documentada                                        | Flujo limpio, ejecutable y auditable                                |
+| Redacción científica        | Deficiente                        | Comprensible                        | Clara                                                   | Precisa, fluida y argumentativa                                     |
+| Figuras/tablas              | Incorrectas/ausentes              | Básicas                             | Correctas                                               | Excelente diseño e integración                                      |
+| Discusión                   | Repite resultados                 | Superficial                         | Interpreta y reconoce limitaciones                      | Integra ambiente, muestreo, escala y literatura                     |
+| Auditoría de IA             | Ausente/inventada                 | Genérica                            | Error concreto verificado                               | Auditoría convincente y útil                                        |
 
 # Criterios de evaluación de la defensa
 
-| Criterio | Nivel 1 | Nivel 2 | Nivel 3 | Nivel 4 |
-|----|----|----|----|----|
-| Comprensión del problema | Confusa | Parcial | Clara | Muy clara y bien motivada |
-| Datos y sesgos | No comprende GBIF | Reconoce algunos | Explica correctamente | Explica implicaciones sobre inferencia |
-| Método | No comprende el flujo | Parcial | Correcto | Justifica decisiones y alternativas |
-| Lectura de figuras | No interpreta | Describe | Interpreta | Sintetiza evidencia con precisión |
-| Limitaciones | Ausentes | Genéricas | Adecuadas | Críticas y específicas |
-| Auditoría IA | No demostrada | Débil | Verificada | Demuestra error, causa y corrección |
-| Respuestas | No responde | Limitadas | Correctas | Argumenta y reconoce incertidumbre |
+| Criterio                 | Nivel 1               | Nivel 2          | Nivel 3               | Nivel 4                                |
+|--------------------------|-----------------------|------------------|-----------------------|----------------------------------------|
+| Comprensión del problema | Confusa               | Parcial          | Clara                 | Muy clara y bien motivada              |
+| Datos y sesgos           | No comprende GBIF     | Reconoce algunos | Explica correctamente | Explica implicaciones sobre inferencia |
+| Método                   | No comprende el flujo | Parcial          | Correcto              | Justifica decisiones y alternativas    |
+| Lectura de figuras       | No interpreta         | Describe         | Interpreta            | Sintetiza evidencia con precisión      |
+| Limitaciones             | Ausentes              | Genéricas        | Adecuadas             | Críticas y específicas                 |
+| Auditoría IA             | No demostrada         | Débil            | Verificada            | Demuestra error, causa y corrección    |
+| Respuestas               | No responde           | Limitadas        | Correctas             | Argumenta y reconoce incertidumbre     |
 
 # Referencias de partida
 
