@@ -1,6 +1,6 @@
 ---
 title: "PA02 · Medio físico, ambiente y biodiversidad de un municipio dominicano<small><br>Biogeografía<br>Universidad Autónoma de Santo Domingo (UASD)</small>"
-author: ""
+author: "José-Ramón Martínez-Batlle"
 date: "2026-09-08"
 output:
   # bookdown::github_document2:

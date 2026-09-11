@@ -2,6 +2,7 @@ PA02 · Medio físico, ambiente y biodiversidad de un municipio
 dominicano<small><br>Biogeografía<br>Universidad Autónoma de Santo
 Domingo (UASD)</small>
 ================
+José-Ramón Martínez-Batlle
 2026-09-08
 
 <!-- README.md y README.html se generan a partir de README.Rmd. Edita README.Rmd. -->
