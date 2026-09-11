@@ -29,7 +29,7 @@ library(readr)
 library(tibble)
 library(ggplot2)
 
-raiz <- if (file.exists("biogeografia-pa02.Rproj")) "." else ".."
+raiz <- if (file.exists("medio-fisico-ambiente-biodiversidad-municipio-dominicano.Rproj")) "." else ".."
 source(file.path(raiz, "R", "funciones_pa02.R"))
 
 ruta_gbif <- file.path(raiz, "datos_fuente", "0003509-260715120105164.csv")

@@ -236,7 +236,7 @@ Dentro del directorio `datos_por_municipio` del repo, fíjate en la lista de dir
 
 La limpieza inicial elimina o marca coordenadas inválidas, coordenadas problemáticas, registros próximos a centroides administrativos o instituciones de biodiversidad y puntos que no pueden asignarse espacialmente a un municipio dominicano, incluidos los situados fuera del territorio municipal o en el mar. Este proceso **no garantiza que todos los registros restantes sean correctos**. Debes continuar auditando visualmente tus datos.
 
-Los archivos originales empleados para preparar los paquetes se encuentran en `datos_fuente/`. El archivo grande de GBIF, `0003509-260715120105164.csv`, **no se distribuye en el repositorio** y debe colocarse allí para ejecutar el cuaderno de preparación del profesor.
+Sólo para fines de registro y para tu conocimiento, el archivo fuente de GBIF que empleé para preparar los paquetes de datos por municipio que se encuentran en `datos_por_municipio/`, se llama `0003509-260715120105164.csv` [@gbiforg_user_occurrence_2026]. Dicho archivo, por su gran tamaño, **no se distribuyó en este repositorio**. Sin embargo, en tu manuscrito, debes referir dicha fuente GBIF usando la entrada BibTeX correspondiente.
 
 # Entregables
 
@@ -262,6 +262,8 @@ El manuscrito debe contener, como mínimo:
 - declaración breve de reproducibilidad;
 - nota breve de auditoría de IA.
 
+Puedes desarrollar los análisis en `analisis/00_cuaderno_trabajo_estudiante.Rmd`, ampliándolo, modificándolo o adaptándolo a tus necesidades, aunque dicho cuaderno no es un producto entregable. No olvides que el manuscrito final se redactará a partir de `plantilla.Rmd`, el cual sí es un producto entregable. Esto debo remarcarlo: **no uses el cuaderno de análisis como referente, porque no contiene todos los análisis que se pueden hacer en ecología numérica; es sólo un punto de partida para que desarrolles tus ideas y experimentes con los datos**.
+
 ## 2. Diapositivas
 
 Prepara una presentación breve, preferentemente de **8–10 diapositivas**, centrada en la pregunta, los datos, el flujo de análisis, la evidencia principal, las limitaciones y la interpretación biogeográfica.
@@ -274,14 +276,57 @@ Realizarás una defensa oral de **7 minutos**. Debes poder explicar qué represe
 
 ## 1. Formula una pregunta biogeográfica
 
-No basta con “hacer un NMDS” o “hacer mapas de GBIF”. Debes formular una pregunta que pueda responderse con evidencia. Ejemplos:
+No basta con "hacer un NMDS" o "hacer mapas de GBIF". Debes formular preguntas que puedan responderse con evidencia. Te incluyo algunas preguntas de **ejemplo**; podrás escoger todas las que quieras, pero debes incluir un mínimo de dos interrelacionadas entre sí.
 
-- ¿Qué gradientes ambientales se asocian con las principales diferencias de composición florística entre hexágonos del municipio?
-- ¿La composición florística difiere entre los tipos de cobertura/hábitat más representados?
-- ¿Qué variables ambientales explican mejor la riqueza observada una vez considerado el número de registros de GBIF?
-- ¿Existen especies especialmente asociadas a determinados hábitats del municipio?
+1. **¿Qué gradientes ambientales se asocian con las principales diferencias de composición florística entre los H3 del municipio?**
+   Es probablemente la pregunta más general para NMDS + `envfit`.
 
-Puedes combinar dos de estas preguntas bajo un objetivo general coherente, pero evita convertir la práctica en un proyecto semestral.
+2. **¿La composición florística cambia a lo largo de un gradiente altitudinal dentro del municipio?**
+   Muy apropiada para municipios con relieve suficiente.
+
+3. **¿La composición florística se relaciona más estrechamente con variables climáticas o con variables del relieve?**
+   Permite comparar grupos de predictores sin necesidad de meter las ~140 variables.
+
+4. **¿Qué variables ambientales se asocian más fuertemente con la riqueza observada de plantas entre H3?**
+
+5. **¿Se mantiene la asociación entre riqueza observada y ambiente después de considerar la intensidad de registro de GBIF?**
+   Esta me gusta especialmente porque obliga a comprender el problema de `n_registros`.
+
+6. **¿Cómo varían conjuntamente la riqueza observada y la intensidad de registro a través del municipio, y qué parte del patrón espacial de riqueza podría estar condicionada por esta última?**
+   Más enfocada en sesgo espacial.
+
+7. **¿La cobertura arbórea se asocia con diferencias en riqueza y composición florística entre H3?**
+
+8. **¿Los H3 con mayor presencia de superficies agrícolas o construidas presentan una composición florística diferente de los H3 menos transformados?**
+
+9. **¿La distancia a infraestructuras se relaciona con la riqueza observada o con la composición de las especies registradas?**
+   Interesante aprovechando `OSM-DIST`, aunque requiere mucha cautela interpretativa porque también puede reflejar accesibilidad y, por tanto, intensidad de registro.
+
+10. **¿La heterogeneidad ambiental o del paisaje se asocia con una mayor riqueza observada de plantas?**
+
+11. **¿La composición florística difiere entre los principales tipos de cobertura o hábitat representados en el municipio?**
+    Sólo si hay replicación suficiente.
+
+12. **¿Qué especies presentan asociaciones estadísticas con los principales tipos de hábitat del municipio?**
+    Igualmente condicionada a que existan grupos adecuados.
+
+13. **¿Los sectores ambientalmente extremos del municipio albergan conjuntos de especies diferentes de los sectores con condiciones ambientales intermedias?**
+    Requiere que el estudiante defina qué entiende por extremo de manera reproducible.
+
+14. **¿Existen sectores del municipio que sean florísticamente semejantes pese a encontrarse espacialmente separados, y qué condiciones ambientales comparten?**
+    Esta aprovecha muy bien el NMDS y obliga a pensar biogeográficamente.
+
+15. **¿Coinciden los principales gradientes de variación florística con los principales gradientes ambientales del municipio?**
+    Es sencilla de formular pero permite una discusión bastante rica.
+
+Las preguntas anteriores son sólo **ejemplos o puntos de partida**. Puedes modificarlas o formular otras que sean compatibles con los datos disponibles en tu municipio. Igualmente, las preguntas deben ser concretas, responderse mediante las unidades H3 disponibles y conducir a objetivos e hipótesis o expectativas razonadas coherentes. Por otra parte, las hipótesis, el objetivo general y los específicos, deben ser coherentes y deben abarcar todas las preguntas formuladas, pero evita convertir la práctica en un proyecto de investigación semestral.
+
+Te incluyo a continuación un **ejemplo de coherencia entre preguntas, objetivo e hipótesis**. Supongamos que se plantean las preguntas «¿La composición florística cambia a lo largo de un gradiente altitudinal dentro del municipio?» y «¿Qué variables ambientales se asocian con las principales diferencias de composición florística entre los H3 del municipio?». Un objetivo general coherente podría ser «Evaluar la asociación entre la variación ambiental, particularmente el gradiente altitudinal, y la composición florística registrada entre los H3 del municipio». Como hipótesis, podría plantearse que los H3 situados a elevaciones y bajo condiciones ambientales semejantes presentarán composiciones florísticas más similares entre sí que aquellos sometidos a condiciones contrastantes.
+
+**Comprueba primero que tu municipio permite responder la pregunta.** Las preguntas sobre gradientes altitudinales requieren variación altitudinal suficiente; una comparación entre hábitats requiere varios hábitats con replicación; y una pregunta sobre urbanización, agricultura o cobertura arbórea requiere que esas variables presenten variación dentro del municipio. La disponibilidad de una variable en el GeoPackage no garantiza que sea informativa dentro de tu área de estudio.
+
+Reitero que las preguntas elegidas deben estar relacionadas entre sí y contribuir a un planteamiento común; **no deben convertirse en dos investigaciones independientes reunidas artificialmente en un mismo manuscrito**. A partir de ellas, formula un objetivo general y, cuando sea necesario, objetivos específicos e hipótesis o expectativas razonadas que mantengan una correspondencia clara con las preguntas. **No copies este ejemplo como planteamiento de tu estudio:** formula los tuyos de acuerdo con el municipio, los datos disponibles y la literatura que consultes.
+
 
 ## 2. Reconoce la unidad de análisis
 
@@ -425,6 +470,21 @@ La ordenación, la regresión y la asociación con hábitat **no son tres tareas
 
 # Flujo de trabajo recomendado
 
+Antes de comenzar, ten en cuenta que el repositorio contiene dos archivos con funciones
+diferentes:
+
+- `analisis/00_cuaderno_trabajo_estudiante.Rmd`: úsalo como **cuaderno de trabajo**
+  para explorar los datos, construir matrices, probar análisis, generar diagnósticos
+  y desarrollar el código. Puedes modificarlo libremente y añadir tantos bloques como
+  necesites.
+- `plantilla.Rmd`: úsala para redactar el **manuscrito científico final**. No conviertas
+  el manuscrito en una transcripción del cuaderno de trabajo: selecciona e integra en él
+  únicamente el código, las figuras, las tablas y los resultados necesarios para
+  responder tu(s) pregunta(s).
+
+El cuaderno de trabajo puede ser extenso y contener ensayos, comprobaciones y resultados
+intermedios. El manuscrito, en cambio, debe ser una narración científica concisa.
+
 ## Etapa 1 — Explorar y formular
 
 - abre el paquete municipal en QGIS;
@@ -540,17 +600,11 @@ Incluye **100–200 palabras** con herramienta, tarea, error/limitación concret
 
 # Requisitos formales del manuscrito
 
-El producto entregado debe funcionar como un **manuscrito científico completo**, no como
-un informe de ejercicios ni como una sucesión de salidas de R. El texto, las figuras,
-las tablas, las citas y las referencias deben estar integrados en una narración científica
-coherente.
+El producto entregado debe funcionar como un **manuscrito científico completo**, no como un informe de ejercicios ni como una sucesión de salidas de R. El texto, las figuras, las tablas, las referencias cruzadas, las citas y la lista de referencias, deben estar integrados en una narración científica coherente, usando las herramientas que ofrece RMarkdown para ello.
 
 ## Nomenclatura biológica
 
-Los nombres científicos de géneros y especies deben escribirse en cursiva y con la
-capitalización taxonómica correspondiente. Utiliza de manera consistente los nombres
-taxonómicos adoptados durante la depuración de los datos y documenta cualquier
-corrección o decisión taxonómica adicional.
+Los nombres científicos de géneros y especies deben escribirse en cursiva y con la capitalización taxonómica correspondiente. Utiliza de manera consistente los nombres taxonómicos adoptados durante la depuración de los datos y documenta cualquier corrección o decisión taxonómica adicional.
 
 ## Citas y referencias bibliográficas
 
